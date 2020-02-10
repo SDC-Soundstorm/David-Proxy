@@ -1,0 +1,91 @@
+/* #modalroot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow-y: auto;
+  box-sizing: border-box;
+} */
+
+body {
+  font: 12px/1.4 Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5000;
+}
+
+.appContainer {
+  padding: 0 30px;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+#main {
+  width: 1180px;
+  height: 380px;
+  margin-top: 45px;
+}
+
+.bottomContainer {
+  width: 1180px;
+  margin-top: 55px;
+  position: relative;
+  height: 100%;
+  margin-bottom: 55px;
+}
+
+.commentContainer {
+  width: 819px;
+  padding-right: 30px;
+  border-right: lightgrey solid 1px;
+}
+
+#post {
+  display: block;
+}
+
+.info-comments {
+  padding-left: 150px;
+  width: 670px;
+}
+
+#artist {
+  position: absolute;
+  left: 0;
+  width: 120px;
+}
+
+#info {
+  width: 100%;
+}
+
+#comments {
+  width: 100%;
+}
+
+.sidebar {
+  top: 30px;
+  right: 0;
+  position: absolute;
+  bottom: auto;
+  width: 300px;
+  padding-bottom: 50px;
+}
+
+#related-albums {
+  width: 100%;
+  border: none;
+}
+
+#playlist-etc {
+  width: 100%;
+  border: none;
+}
