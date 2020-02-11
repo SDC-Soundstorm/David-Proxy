@@ -31,7 +31,7 @@ app.get('/api/comments', (req, res) => {
 });
 
 app.get('/songs', (req, res) => {
-    axios.get('http://18.144.5.255:8000/songs')
+    axios.get('http://13.56.213.9:8000/songs')
     .then(response => {
         res.send(response.data);
     })
