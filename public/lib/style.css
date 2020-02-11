@@ -19,7 +19,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 5000;
+  z-index: 2;
 }
 
 .appContainer {
@@ -88,4 +88,14 @@ body {
 #playlist-etc {
   width: 100%;
   border: none;
+}
+
+#playlistModal {
+    top: 0px;
+    left: 0px;
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+    z-index: 51;
+    /* background: rgba(255, 255, 255, 0.75); */
 }
